@@ -25,8 +25,8 @@ class Bankaccount:
             self.__account_holder_name, self.__account_number,
             self.__account_balance))
 
-account = Bankaccount(account_number="2201111033007",
-                            account_holder_name="Cheran B",
+account = Bankaccount(account_number="2201111033039",
+                            account_holder_name="Vikinesh",
                             initial_balance=5000.0)
 account.display_balance()
 account.deposit(500.0)
